@@ -1,10 +1,10 @@
 import { app } from "@azure/functions";
-app.http('just_version', {
+app.http('v', {
     methods: ['GET', "POST"],
     authLevel: 'anonymous',
-    handler: just_version
+    handler: v_func
 });
-export async function just_version(request, context) {
+export async function v_func(request, context) {
     return {
         status: 200,
         jsonBody: {

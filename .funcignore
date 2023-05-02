@@ -1,0 +1,21 @@
+*.js.map
+*.ts
+.git*
+.vscode
+local.settings.json
+test
+azurestorage
+workbench
+.cache
+functions
+
+*.md
+
+
+.npmrc
+tsconfig.json
+
+// shaves ~35 MB from the deploymnet package and not used during executions
+//node_modules/typescript
+
+

@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules/
+
+# Azurite artifacts
+azurestorage
+
+#npm
+.npmrc
+

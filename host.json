@@ -1,0 +1,33 @@
+{
+	"version": "2.0",
+	"logging": {
+		"console": {
+			"isEnabled": true,
+			"DisableColors": false
+		},
+		"fileLoggingMode": "always",
+		"applicationInsights": {
+			"samplingSettings": {
+				"isEnabled": false,
+				"excludedTypes": "Request"
+			},
+			"enableLiveMetrics": false,
+			"enablePerformanceCountersCollection": false,
+			"enableDependencyTracking": false
+		},
+		"logLevel": {
+			"default": "Trace"
+		}
+	},
+	"extensions": {
+		"http": {
+			"dynamicThrottlesEnabled": false,
+			"routePrefix": ""
+		}
+	},
+	"extensionBundle": {
+		"id": "Microsoft.Azure.Functions.ExtensionBundle",
+		"version": "[4.0.0, 5.0.0)"
+	},
+	"functionTimeout": "00:02:00"
+}

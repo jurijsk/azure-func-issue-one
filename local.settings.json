@@ -1,0 +1,12 @@
+{
+	"IsEncrypted": false,
+	"Values": {
+		"AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=azurefuncissueones60aedc;AccountKey=sec47AG3cYbzM8swC+kG1QcDCN1WdU1VR9l0nhXaT9KMX9YiV98AHbO2yMxJVosAOFplZQBoXant+AStl3Q7tA==;EndpointSuffix=core.windows.net",
+		"FUNCTIONS_EXTENSION_VERSION": "~4",
+		"FUNCTIONS_WORKER_RUNTIME": "node",
+		"WEBSITE_NODE_DEFAULT_VERSION": "~18",
+		"WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=azurefuncissueones60aedc;AccountKey=sec47AG3cYbzM8swC+kG1QcDCN1WdU1VR9l0nhXaT9KMX9YiV98AHbO2yMxJVosAOFplZQBoXant+AStl3Q7tA==;EndpointSuffix=core.windows.net",
+		"WEBSITE_CONTENTSHARE": "azure-func-issue-one6292ea",
+		"APPINSIGHTS_INSTRUMENTATIONKEY": "91e4d4e0-5ac8-4950-8f72-3f7a918a1527"
+	}
+}
